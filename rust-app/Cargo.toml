@@ -41,7 +41,7 @@ ledger_device_sdk = "1.22.13"
 ledger_secure_sdk_sys = "1.8.2"
 
 [target.'cfg(target_family = "bolos")'.dev-dependencies.ledger_device_sdk]
-version = "1.22.13"
+version = "1.23.0"
 features = [ "speculos" ]
 
 [[bin]]
